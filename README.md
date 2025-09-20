@@ -149,3 +149,23 @@ When adding new features:
 5. Apply performance optimizations from `utils/performance.py`
 
 This optimized structure ensures the Wall Street 101 app remains fast, maintainable, and scalable as it grows!
+
+## Setup
+
+To create a virtual environment and install dependencies on Windows PowerShell:
+
+```powershell
+# create and activate venv
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+
+# upgrade pip and install requirements
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+```
+
+Or run the included setup script:
+
+```powershell
+./scripts/setup_venv.ps1
+```
